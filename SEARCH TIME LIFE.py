@@ -1,14 +1,14 @@
 import math
 from datetime import date
 from datetime import datetime
-while (1) :
+while (1) : #while true Loop
     n = int(input("ENTER : "))
     mybirth = date(2006, 10, 29) #ใส่วันเกิดตัวเอง
     mydaeth = date(2086, 10, 29) #ใส่วันที่จะมีชีวิตอยู่วันสุดท้าย
     total = mydaeth - mybirth
     if n == 1 : #function ใส่ 1 คิดของวันนี้
         now = date.today() #เวลา ณ ปัจจุบันหรือที่เราเซ็ทค่าไว้ date(year,month,day)
-    elif n == 2 :
+    elif n == 2 :#function ใส่ 2 คิดของวันที่รับค่าไป
         d = int(input("input day : "))
         m = int(input("input month : "))
         y = int(input("input year : "))
