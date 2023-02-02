@@ -67,7 +67,8 @@ void solutions(int a[], int n, float t, int s){
 };
 
 int main(){
-    // define problem
+	while (1){
+	// define problem
 	int x1,x2,x3,x4;
 	scanf("%d %d %d %d",&x1 ,&x2 ,&x3 ,&x4);
     int a[4] = {x1, x2, x3, x4};
@@ -79,7 +80,9 @@ int main(){
     nodes[0] = (typeof(Node)){a[0],-1,-1,-1};
     iNodes = 1;
 
-    solutions(a, sizeof(a)/sizeof(int), t, 1);
+    solutions(a, sizeof(a)/sizeof(int), t, 1);	
+    printf("-----------------------------------\n");
+	}
 
     return 0;
 }
