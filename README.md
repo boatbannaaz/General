@@ -1,2 +1,2 @@
-# MAIN
-Welcome TO my main page in github Im a little boy also little knowledge
+# จับฉ่าย
+"จับฉ่าย" IS mean miscellaneous in Eng but Thai it mean mixture of vegetables like this branch
