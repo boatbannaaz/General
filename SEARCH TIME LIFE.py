@@ -13,7 +13,7 @@ while (1) : #while true Loop
         m = int(input("input month : "))
         y = int(input("input year : "))
         now = date(y,m,d)
-    elif n == 3 :
+    else :
         break
     timetonow = now - mybirth
 
